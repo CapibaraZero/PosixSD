@@ -1,0 +1,22 @@
+{
+    "name": "PosixSD",
+    "keywords": "sd, esp32",
+    "description": "An ESP32 Sniffer made with ArduinoPCAP and used in Capibara Zero.",
+    "authors":
+	{
+		"name": "Andreock",
+		"maintainer": true
+	},
+	"repository":
+    {
+        "type": "git",
+        "url": "https://github.com/CapibaraZero/PosixSD.git"
+    },
+    "version": "1.1",
+    "frameworks": "arduino",
+    "dependencies":
+	{
+		"FS": "*",
+        "SD": "*"
+	}
+}
