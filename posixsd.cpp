@@ -22,6 +22,10 @@ int init_sdcard(int pin) {
     return SD.begin(pin);
 }
 
+int init_sdcard_custom_spi(int pin, SPIClass &custom_spi) {
+    return SD.begin(pin, custom_spi);
+}
+
 File open(String path) {
     return SD.open(path);
 }

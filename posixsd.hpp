@@ -16,8 +16,10 @@
  */
  
 #include "FS.h"
+#include "SD.h"
 
 int init_sdcard(int pin);
+int init_sdcard_custom_spi(int pin, SPIClass &custom_spi);
 
 File open(String path);
 
